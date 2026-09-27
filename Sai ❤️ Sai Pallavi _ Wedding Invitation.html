@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<!-- saved from url=(0106)file:///C:/Users/LENOVO/Downloads/Sai%20%E2%9D%A4%EF%B8%8F%20Sai%20Pallavi%20_%20Wedding%20Invitation.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sai ❤️ Sai Pallavi | Wedding Invitation</title>
+
+    <!-- Telugu + English Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+
+    <link href="./Sai ❤️ Sai Pallavi _ Wedding Invitation_files/css2" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background:
+                radial-gradient(circle at top, rgba(255, 215, 100, 0.18), transparent 35%),
+                #5c0710;
+            color: #fff8e7;
+            font-family: "Poppins", sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Floating flowers */
+        .flower {
+            position: fixed;
+            top: -50px;
+            z-index: 20;
+            pointer-events: none;
+            animation: fall linear infinite;
+            opacity: 0.85;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-50px) rotate(0deg);
+            }
+            100% {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+
+        .invitation {
+            min-height: 100vh;
+            position: relative;
+            padding: 30px 15px 70px;
+        }
+
+        /* Decorative borders */
+        .card {
+            max-width: 950px;
+            margin: auto;
+            position: relative;
+            padding: 60px 35px;
+            background:
+                linear-gradient(rgba(93, 6, 16, 0.93), rgba(93, 6, 16, 0.97)),
+                radial-gradient(circle, #8e1724, #4b050c);
+            border: 3px solid #d9a441;
+            box-shadow:
+                0 0 0 8px #5c0710,
+                0 0 0 10px #d9a441,
+                0 20px 60px rgba(0,0,0,0.45);
+            text-align: center;
+        }
+
+        .card::before,
+        .card::after {
+            content: "✦";
+            position: absolute;
+            color: #e5b94f;
+            font-size: 50px;
+        }
+
+        .card::before {
+            top: 10px;
+            left: 20px;
+        }
+
+        .card::after {
+            bottom: 10px;
+            right: 20px;
+        }
+
+        .om {
+            font-family: "Noto Serif Telugu", serif;
+            color: #ffd96a;
+            font-size: 48px;
+            margin-bottom: 5px;
+        }
+
+        .ganesha {
+            font-size: 42px;
+            color: #ffd96a;
+            margin-bottom: 10px;
+        }
+
+        .blessing {
+            font-family: "Noto Serif Telugu", serif;
+            font-size: 20px;
+            line-height: 1.9;
+            color: #ffe9a8;
+            margin: 15px auto 30px;
+            max-width: 700px;
+        }
+
+        .small-heading {
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #e6bd62;
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(55px, 10vw, 105px);
+            font-weight: 600;
+            line-height: 0.9;
+            color: #ffe7a0;
+            text-shadow: 0 3px 15px rgba(0,0,0,0.4);
+        }
+
+        .ampersand {
+            display: block;
+            font-size: 50px;
+            color: #dcae43;
+            font-family: "Cormorant Garamond", serif;
+            margin: 10px 0;
+        }
+
+        .invite-text {
+            max-width: 680px;
+            margin: 35px auto;
+            font-family: "Cormorant Garamond", serif;
+            font-size: 25px;
+            line-height: 1.5;
+            color: #fff7df;
+        }
+
+        .parents {
+            margin: 35px auto;
+            padding: 20px;
+            border-top: 1px solid rgba(225,184,77,.6);
+            border-bottom: 1px solid rgba(225,184,77,.6);
+            max-width: 700px;
+        }
+
+        .parents-title {
+            color: #e9bf58;
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .parents p {
+            font-family: "Noto Serif Telugu", serif;
+            font-size: 19px;
+            line-height: 1.8;
+        }
+
+        .date-main {
+            margin: 35px 0;
+        }
+
+        .date-main .day {
+            font-family: "Cormorant Garamond", serif;
+            font-size: 72px;
+            color: #ffd96a;
+            font-weight: 600;
+        }
+
+        .date-main .month {
+            font-size: 23px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        .date-main .time {
+            margin-top: 8px;
+            color: #ffe5a0;
+            font-size: 18px;
+        }
+
+        /* Events */
+        .events-title {
+            margin-top: 55px;
+            margin-bottom: 25px;
+        }
+
+        .events-title h2 {
+            font-family: "Cormorant Garamond", serif;
+            font-size: 42px;
+            color: #ffd96a;
+        }
+
+        .events {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .event {
+            background: rgba(255, 232, 169, 0.07);
+            border: 1px solid rgba(226, 181, 69, 0.55);
+            padding: 25px 18px;
+            transition: 0.35s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .event:hover {
+            transform: translateY(-7px);
+            background: rgba(255, 224, 130, 0.12);
+            box-shadow: 0 10px 25px rgba(0,0,0,.25);
+        }
+
+        .event-icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .event h3 {
+            font-family: "Cormorant Garamond", serif;
+            color: #ffd96a;
+            font-size: 30px;
+        }
+
+        .event .event-date {
+            color: #fff3cd;
+            margin-top: 7px;
+            font-weight: 500;
+        }
+
+        .event .event-time {
+            color: #e7c76f;
+            margin-top: 4px;
+        }
+
+        .event-note {
+            margin-top: 10px;
+            font-size: 13px;
+            color: #f5dfad;
+            font-style: italic;
+        }
+
+        /* Venue */
+        .venue {
+            margin: 45px auto 30px;
+            max-width: 720px;
+            padding: 28px;
+            border: 1px solid rgba(225,184,77,.6);
+            background: rgba(0,0,0,.12);
+        }
+
+        .venue h2 {
+            font-family: "Cormorant Garamond", serif;
+            color: #ffd96a;
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .venue p {
+            line-height: 1.8;
+            color: #fff0c7;
+        }
+
+        .map-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: 1px solid #dcb354;
+            color: #ffe6a0;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+        .map-button:hover {
+            background: #dcb354;
+            color: #5c0710;
+        }
+
+        /* Footer */
+        .closing {
+            margin-top: 45px;
+        }
+
+        .closing .telugu {
+            font-family: "Noto Serif Telugu", serif;
+            font-size: 22px;
+            color: #ffe5a0;
+            line-height: 1.9;
+        }
+
+        .closing .english {
+            margin-top: 15px;
+            font-family: "Cormorant Garamond", serif;
+            font-size: 24px;
+            color: #fff6dc;
+        }
+
+        .heart {
+            color: #ffcc55;
+            font-size: 35px;
+            margin: 15px 0;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.18); }
+        }
+
+        .signature {
+            margin-top: 25px;
+            font-family: "Cormorant Garamond", serif;
+            font-size: 28px;
+            color: #ffd96a;
+        }
+
+        .music-button {
+            position: fixed;
+            bottom: 22px;
+            right: 22px;
+            z-index: 50;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            border: 2px solid #e2b64e;
+            background: #690913;
+            color: #ffd96a;
+            font-size: 22px;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0,0,0,.35);
+        }
+
+        /* Responsive */
+        @media (max-width: 650px) {
+            .card {
+                padding: 45px 18px;
+            }
+
+            .events {
+                grid-template-columns: 1fr;
+            }
+
+            .invite-text {
+                font-size: 21px;
+            }
+
+            .date-main .day {
+                font-size: 58px;
+            }
+
+            .blessing {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating decorative flowers -->
+    <div class="flower" style="left:5%; animation-duration:9s;">🌸</div>
+    <div class="flower" style="left:15%; animation-duration:12s; animation-delay:2s;">🌼</div>
+    <div class="flower" style="left:30%; animation-duration:10s; animation-delay:4s;">🌸</div>
+    <div class="flower" style="left:50%; animation-duration:13s; animation-delay:1s;">🌺</div>
+    <div class="flower" style="left:70%; animation-duration:11s; animation-delay:3s;">🌼</div>
+    <div class="flower" style="left:88%; animation-duration:14s;">🌸</div>
+
+    <main class="invitation">
+
+        <section class="card" style="opacity: 1; transform: translateY(0px); transition: 1.4s;">
+
+            <!-- Traditional opening -->
+            <div class="ganesha">🪷</div>
+
+            <div class="om">ఓం శ్రీ గణేశాయ నమః</div>
+
+            <div class="blessing">
+                శ్రీ గణేశాయ నమః<br>
+                పెద్దల ఆశీస్సులతో, కుటుంబ సభ్యుల ప్రేమతో
+            </div>
+
+            <div class="small-heading">
+                With the blessings of our beloved parents &amp; family
+            </div>
+
+            <div class="invite-text">
+                We cordially invite you and your family<br>
+                to join us as we celebrate the beautiful<br>
+                beginning of our new journey together.
+            </div>
+
+            <!-- Couple -->
+            <h1>Sai</h1>
+            <span class="ampersand">&amp;</span>
+            <h1>Sai Pallavi</h1>
+
+            <!-- Parents -->
+            <div class="parents">
+                <div class="parents-title">
+                    With the love &amp; blessings of our beloved parents
+                </div>
+
+                <p>
+                    మా పెద్దల ఆశీస్సులతో మరియు<br>
+                    కుటుంబ సభ్యుల ప్రేమానురాగాలతో
+                </p>
+            </div>
+
+            <!-- Wedding Date -->
+            <div class="date-main">
+                <div class="small-heading">Wedding Ceremony</div>
+
+                <div class="day">16</div>
+
+                <div class="month">November 2026</div>
+
+                <div class="time">
+                    ⏰ 3:15 AM
+                </div>
+            </div>
+
+            <!-- Events -->
+            <div class="events-title">
+                <div class="small-heading">Our Wedding Celebrations</div>
+                <h2>Join Us For The Celebrations</h2>
+            </div>
+
+            <div class="events">
+
+                <!-- Haldi -->
+                <div class="event">
+                    <div class="event-icon">🌼</div>
+                    <h3>Haldi</h3>
+
+                    <div class="event-date">
+                        14th November 2026
+                    </div>
+
+                    <div class="event-time">
+                        🕓 4:00 PM
+                    </div>
+                </div>
+
+                <!-- Mehendi -->
+                <div class="event">
+                    <div class="event-icon">🌿</div>
+                    <h3>Mehendi</h3>
+
+                    <div class="event-date">
+                        15th November 2026
+                    </div>
+
+                    <div class="event-time">
+                        🕖 7:00 PM
+                    </div>
+                </div>
+
+                <!-- Wedding -->
+                <div class="event">
+                    <div class="event-icon">💍</div>
+                    <h3>Wedding</h3>
+
+                    <div class="event-date">
+                        16th November 2026
+                    </div>
+
+                    <div class="event-time">
+                        🕒 3:15 AM
+                    </div>
+                </div>
+
+                <!-- Reception -->
+                <div class="event">
+                    <div class="event-icon">🥂</div>
+                    <h3>Reception &amp; Dinner</h3>
+
+                    <div class="event-date">
+                        16th November 2026
+                    </div>
+
+                    <div class="event-time">
+                        🕖 7:00 PM
+                    </div>
+
+                    <div class="event-note">
+                        Delicious food, joyful moments &amp; lots of love!
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Venue -->
+            <div class="venue">
+                <div class="small-heading">Venue</div>
+
+                <h2>Our Wedding Venue</h2>
+
+                <p>
+                    House No. (165-C), Near Sachivalayam,<br>
+                    Jogimpeta Village,<br>
+                    Seethanagaram Mandal,<br>
+                    Parvathipuram Manyam District,<br>
+                    Andhra Pradesh
+                </p>
+
+                <a class="map-button" href="https://www.google.com/maps/search/?api=1&amp;query=Jogimpeta%2C%20Seethanagaram%2C%20Parvathipuram%20Manyam%2C%20Andhra%20Pradesh" target="_blank">
+                    📍 View Location
+                </a>
+            </div>
+
+            <!-- Closing -->
+            <div class="closing">
+
+                <div class="heart">♥</div>
+
+                <div class="telugu">
+                    మీ అందరి సాన్నిధ్యం మరియు ఆశీస్సులు<br>
+                    మా ప్రత్యేకమైన రోజును మరింత మధురంగా చేస్తాయి.
+                </div>
+
+                <div class="english">
+                    Your presence and blessings<br>
+                    will make our special day even more memorable.
+                </div>
+
+                <div class="signature">
+                    With Love,<br>
+                    Sai &amp; Sai Pallavi
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Background music button -->
+    <button class="music-button" id="musicButton" onclick="toggleMusic()">
+        ♪
+    </button>
+
+    <!-- Optional wedding music -->
+    <audio id="weddingMusic" loop="">
+        <!-- Add your own MP3 file here -->
+        <!-- Example:
+        <source src="wedding-music.mp3" type="audio/mpeg">
+        -->
+    </audio>
+
+    <script>
+        // Create additional falling flowers dynamically
+        const flowers = ["🌸", "🌼", "🌺", "🪷", "✨"];
+
+        function createFlower() {
+            const flower = document.createElement("div");
+
+            flower.className = "flower";
+            flower.innerText =
+                flowers[Math.floor(Math.random() * flowers.length)];
+
+            flower.style.left = Math.random() * 100 + "%";
+            flower.style.fontSize = (15 + Math.random() * 15) + "px";
+            flower.style.animationDuration = (8 + Math.random() * 8) + "s";
+            flower.style.opacity = 0.4 + Math.random() * 0.5;
+
+            document.body.appendChild(flower);
+
+            setTimeout(() => {
+                flower.remove();
+            }, 16000);
+        }
+
+        setInterval(createFlower, 1200);
+
+
+        // Music control
+        const music = document.getElementById("weddingMusic");
+        const musicButton = document.getElementById("musicButton");
+
+        function toggleMusic() {
+
+            // If no music source is added
+            if (!music.src && music.children.length === 0) {
+                alert(
+                    "Add your wedding music MP3 inside the <audio> tag to enable music."
+                );
+                return;
+            }
+
+            if (music.paused) {
+                music.play();
+                musicButton.innerHTML = "❚❚";
+            } else {
+                music.pause();
+                musicButton.innerHTML = "♪";
+            }
+        }
+
+
+        // Smooth reveal animation when page loads
+        window.addEventListener("load", () => {
+            const card = document.querySelector(".card");
+
+            card.style.opacity = "0";
+            card.style.transform = "translateY(30px)";
+
+            setTimeout(() => {
+                card.style.transition = "all 1.4s ease";
+                card.style.opacity = "1";
+                card.style.transform = "translateY(0)";
+            }, 200);
+        });
+
+
+        // Add sparkle effect when clicking anywhere
+        document.addEventListener("click", function(e) {
+
+            const sparkle = document.createElement("span");
+
+            sparkle.innerHTML = "✨";
+            sparkle.style.position = "fixed";
+            sparkle.style.left = e.clientX + "px";
+            sparkle.style.top = e.clientY + "px";
+            sparkle.style.pointerEvents = "none";
+            sparkle.style.fontSize = "20px";
+            sparkle.style.zIndex = "100";
+
+            document.body.appendChild(sparkle);
+
+            sparkle.animate(
+                [
+                    {
+                        transform: "translate(-50%, -50%) scale(0)",
+                        opacity: 1
+                    },
+                    {
+                        transform: "translate(-50%, -100px) scale(1.5)",
+                        opacity: 0
+                    }
+                ],
+                {
+                    duration: 900,
+                    easing: "ease-out"
+                }
+            );
+
+            setTimeout(() => sparkle.remove(), 900);
+        });
+    </script>
+
+
+<div class="flower" style="left: 69.2296%; font-size: 22.6429px; animation-duration: 15.2373s; opacity: 0.534339;">🌼</div><div class="flower" style="left: 92.176%; font-size: 18.8627px; animation-duration: 9.95272s; opacity: 0.777798;">🌺</div><div class="flower" style="left: 19.0028%; font-size: 29.2595px; animation-duration: 12.4081s; opacity: 0.547728;">🌺</div><div class="flower" style="left: 50.9939%; font-size: 27.2616px; animation-duration: 9.96427s; opacity: 0.630548;">🪷</div><div class="flower" style="left: 98.0554%; font-size: 22.263px; animation-duration: 10.0082s; opacity: 0.894517;">🌺</div><div class="flower" style="left: 21.1119%; font-size: 23.5494px; animation-duration: 8.79081s; opacity: 0.868286;">✨</div><div class="flower" style="left: 82.6481%; font-size: 22.3849px; animation-duration: 13.9098s; opacity: 0.527288;">🌺</div><div class="flower" style="left: 76.8189%; font-size: 22.2034px; animation-duration: 8.45413s; opacity: 0.741927;">🌸</div><div class="flower" style="left: 21.0528%; font-size: 17.3632px; animation-duration: 12.5468s; opacity: 0.867947;">✨</div><div class="flower" style="left: 1.90732%; font-size: 23.5634px; animation-duration: 9.41592s; opacity: 0.864461;">🌺</div><div class="flower" style="left: 34.4055%; font-size: 21.9049px; animation-duration: 9.12551s; opacity: 0.487574;">🌼</div><div class="flower" style="left: 4.03109%; font-size: 15.8842px; animation-duration: 9.08882s; opacity: 0.526299;">🌼</div><div class="flower" style="left: 89.6224%; font-size: 25.961px; animation-duration: 15.0507s; opacity: 0.666252;">🌼</div><div class="flower" style="left: 77.9417%; font-size: 16.9265px; animation-duration: 8.5908s; opacity: 0.718437;">🌺</div><div class="flower" style="left: 37.8067%; font-size: 29.2978px; animation-duration: 10.2277s; opacity: 0.777092;">🌺</div><div class="flower" style="left: 63.3304%; font-size: 15.8921px; animation-duration: 14.2986s; opacity: 0.542635;">🌼</div><div class="flower" style="left: 11.6543%; font-size: 25.0529px; animation-duration: 9.13222s; opacity: 0.622504;">🪷</div><div class="flower" style="left: 15.8402%; font-size: 19.4907px; animation-duration: 9.15868s; opacity: 0.749927;">✨</div><div class="flower" style="left: 78.0068%; font-size: 17.6486px; animation-duration: 9.76322s; opacity: 0.490569;">🌸</div><div class="flower" style="left: 51.8557%; font-size: 27.7496px; animation-duration: 9.39162s; opacity: 0.598951;">✨</div><div class="flower" style="left: 8.02787%; font-size: 18.1129px; animation-duration: 13.998s; opacity: 0.442287;">🪷</div><div class="flower" style="left: 64.0036%; font-size: 27.168px; animation-duration: 8.43543s; opacity: 0.541116;">🌺</div><div class="flower" style="left: 50.7805%; font-size: 18.4956px; animation-duration: 8.25651s; opacity: 0.419088;">🌺</div><div class="flower" style="left: 41.62%; font-size: 23.19px; animation-duration: 11.685s; opacity: 0.755168;">🌺</div><div class="flower" style="left: 17.8097%; font-size: 23.974px; animation-duration: 15.2923s; opacity: 0.872602;">🌺</div><div class="flower" style="left: 28.5474%; font-size: 22.8007px; animation-duration: 8.28528s; opacity: 0.521212;">🪷</div><div class="flower" style="left: 93.61%; font-size: 26.6875px; animation-duration: 11.2416s; opacity: 0.755827;">🌸</div></body></html>
